@@ -3,6 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RuntimeFrameworkVersion>2.1.2</RuntimeFrameworkVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>DC</Authors>
+    <Company>ESFA</Company>
+    <Copyright>Copyright 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/SkillsFundingAgency/DC-Data-DasCommitments/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/SkillsFundingAgency/DC-Data-DasCommitments</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SkillsFundingAgency/DC-Data-DasCommitments</RepositoryUrl>
+    <PackageTags>DAS Data Commitments</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
