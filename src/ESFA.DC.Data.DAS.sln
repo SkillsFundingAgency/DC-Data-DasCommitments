@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESFA.DC.Data.DAS.Model", "ESFA.DC.Data.DAS\ESFA.DC.Data.DAS.Model.csproj", "{5A8B27DC-F9A3-4485-B00A-DAA24E7873AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESFA.DC.Data.DAS.Model", "ESFA.DC.Data.DAS\ESFA.DC.Data.DAS.Model.csproj", "{5A8B27DC-F9A3-4485-B00A-DAA24E7873AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{516FACD8-1F3D-4F56-A16A-C0BC45BCFE3C}"
 	ProjectSection(SolutionItems) = preProject
 		..\README.md = ..\README.md
 	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ESFA.DC.Data.DAS.Commitment.Database", "ESFA.DC.Data.DAS.Commitment.Database\ESFA.DC.Data.DAS.Commitment.Database.sqlproj", "{2CD7848A-0884-4437-BA8F-ADCE1C0D6FED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,12 @@ Global
 		{5A8B27DC-F9A3-4485-B00A-DAA24E7873AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A8B27DC-F9A3-4485-B00A-DAA24E7873AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A8B27DC-F9A3-4485-B00A-DAA24E7873AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD7848A-0884-4437-BA8F-ADCE1C0D6FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD7848A-0884-4437-BA8F-ADCE1C0D6FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD7848A-0884-4437-BA8F-ADCE1C0D6FED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2CD7848A-0884-4437-BA8F-ADCE1C0D6FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD7848A-0884-4437-BA8F-ADCE1C0D6FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD7848A-0884-4437-BA8F-ADCE1C0D6FED}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
